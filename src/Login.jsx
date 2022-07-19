@@ -7,7 +7,7 @@ const Login = () => {
   const clickHandler = () => {};
 
   return (
-    <>
+    <div>
       <h1>Sign in</h1>
       <div>
         <input
@@ -33,7 +33,7 @@ const Login = () => {
 
         <button onClick={clickHandler}>Login</button>
       </div>
-    </>
+    </div>
   );
 };
 
